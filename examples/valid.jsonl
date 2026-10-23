@@ -1,0 +1,3 @@
+{"id":"checkout-1","operation":"checkout","attempt":1}
+{"id":"payment-1","operation":"payment","attempt":1}
+{"id":"checkout-2","operation":"checkout","attempt":2}

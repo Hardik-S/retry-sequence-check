@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retry-sequence-check"
+version = "0.1.0"
+description = "Offline checker for normalized retry attempt sequence fixtures"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Retry Sequence Check contributors"}]
+dependencies = []
+
+[project.scripts]
+retry-sequence-check = "retry_sequence_check.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
